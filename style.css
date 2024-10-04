@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Corsiva-normal;
+    src: url(assets/fonts/Corsiva-normal-400-100.ttf);
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -82,10 +87,6 @@ aside{
     color: #adadad;
 }
 
-@font-face {
-    font-family: Corsiva-normal;
-    src: url(assets/fonts/Corsiva-normal-400-100.ttf);
-}
 
 h2{
     font-family: corsiva-normal;
@@ -108,5 +109,31 @@ h4{
     background-color: #eda0c7;
     color: #d93d8b;
     font-weight: bold;
+    text-align: center;
+    padding: 0 8px;
 }
 
+#redes_sociales{
+    width: 90%;
+}
+
+#entradas{
+    list-style-type: none;
+    padding: 0;
+}
+
+#entradas li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#entradas li img{
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+h5{
+    color: #3399ff;
+}
