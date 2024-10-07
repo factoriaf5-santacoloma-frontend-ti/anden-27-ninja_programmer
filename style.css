@@ -11,6 +11,8 @@ body{
     font-size: 16px; 
 }
 
+/*Barra de Navegación*/
+
 #menu{
     background-color: #e6edf7;
     border-bottom: 2.5px solid #3399ff; 
@@ -31,6 +33,34 @@ body{
 #menu ul{
     margin: 0;
 }
+/*---------------*/
+
+/*Encabezado*/
+h1 img{
+    max-width: 100%;
+    height: 250px;
+    padding: 10px;
+}
+
+header{
+   color: #848484; 
+}
+/*---------------*/
+
+/*Submenu*/
+#submenu{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around; 
+}
+
+#submenu li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+/*---------------*/
+
+
 
 #archivo{
     color: #3399ff;
@@ -55,26 +85,8 @@ body{
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
-h1 img{
-    max-width: 100%;
-    height: 250px;
-    padding: 10px;
-}
 
-header{
-   color: #848484; 
-}
 
-#submenu{
-    border-bottom: 1px solid black;
-    display: flex;
-    justify-content: space-around; 
-}
-
-#submenu li{
-    display: inline-block;
-    padding: 0px 20px;
-}
 
 #main-aside{
     display: flex;
